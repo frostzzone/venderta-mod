@@ -1,0 +1,1 @@
+(function(e,n,o){"use strict";const{FormText:t}=o.Forms;function l(){return React.createElement(t,null,"FSH FSH")}var r={onLoad:function(){n.logger.log("Hello world!")},onUnload:function(){n.logger.log("Goodbye, world.")},settings:l};return e.default=r,Object.defineProperty(e,"__esModule",{value:!0}),e})({},vendetta,vendetta.ui.components);
