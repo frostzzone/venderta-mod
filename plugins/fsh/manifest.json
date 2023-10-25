@@ -1,0 +1,14 @@
+{
+    "name": "Fsh api connect",
+    "description": "Use fsh api from discord",
+    "authors": [
+        {
+            "name": "frostzzone",
+            "id": "712342308565024818"
+        }
+    ],
+    "main": "src/index.ts",
+    "vendetta": {
+        "icon": "ic_badge_staff"
+    }
+}
