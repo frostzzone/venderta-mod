@@ -10,18 +10,35 @@ let patches = [];
 export default {
     onLoad: () => {
         patches.push(commands.registerCommand({
-            name: "name",
-            displayName: "displayname",
-            description: "description",
-            displayDescription: "displayDescription",
+            name: "fshapi",
+            displayName: "fshapi",
+            description: "Commands to connect to fsh api",
+            displayDescription: "Commands to connect to fsh api",
             options: [{
-                name: "message",
-                displayName: "message",
-                description: Locale.Messages.COMMAND_SHRUG_MESSAGE_DESCRIPTION,
-                displayDescription: Locale.Messages.COMMAND_SHRUG_MESSAGE_DESCRIPTION,
-                required: false,
+                name: "base64",
+                displayName: "base64",
+                description: 'encode/decode to base64',
+                displayDescription: 'encode/decode to base64',
+                //required: false,
                 // @ts-ignore
-                type: 3
+                type: 1,
+                options: [{
+                    name: "type",
+                    displayName: "type",
+                    description: 'to encode or decode',
+                    displayDescription: 'to encode or decode',
+                    required: true,
+                    // @ts-ignore
+                    type: 3,
+                    choices: [{
+                        name: 'encode',
+                        value: 'encode'
+                    },
+                    {
+                        name: 'decode',
+                        value: 'decode'
+                    }]
+                }]
             }],
             // @ts-ignore
             applicationId: -1,

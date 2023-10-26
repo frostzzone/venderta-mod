@@ -10,5 +10,8 @@
     "main": "src/index.ts",
     "vendetta": {
         "icon": "wumpus-luigi"
+    },
+    "extra": {
+        "README": true
     }
 }

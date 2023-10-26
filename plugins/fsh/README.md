@@ -8,4 +8,4 @@ Paste this plugin URL into the Plugins page of Vendetta:
 
 # Usage
 
-- nothing
+- 
