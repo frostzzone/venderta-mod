@@ -83,7 +83,7 @@ for (let plug of await readdir("./plugins")) {
         // Idk i was bored
         if(manifest?.extra?.README){
             let readme = await readFile(`./plugins/${plug}/README.md`);
-            await writeFile(`./dist/${plug}/README.md`, JSON.stringify(readme));
+            await writeFile(`./dist/${plug}/README.md`, readme.toString());
         }
     
         console.log(`Successfully built ${manifest.name}!`);
