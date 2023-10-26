@@ -1,1 +1,1 @@
-{"name":"Fsh api connect","description":"Use fsh api from discord","authors":[{"name":"frostzzone","id":"712342308565024818"}],"main":"index.js","vendetta":{"icon":"wumpus-luigi"},"hash":"88a76471f76fda9bb6469f4d44d51a73b5161799eadb290c1366454c8a26dfc3"}
+{"name":"Fsh api connect","description":"Use fsh api from discord","authors":[{"name":"frostzzone","id":"712342308565024818"}],"main":"index.js","vendetta":{"icon":"wumpus-luigi"},"extra":{"README":true},"hash":"99377cf24772aab026bd0ff3f3f1eb30086b7a5bbd20126ffd4beb967bc608db"}
