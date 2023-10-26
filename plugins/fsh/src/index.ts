@@ -20,7 +20,6 @@ export default {
                 description: 'encode/decode to base64',
                 displayDescription: 'encode/decode to base64',
                 //required: false,
-                // @ts-ignore
                 type: 1,
                 options: [{
                     name: "type",
@@ -28,7 +27,6 @@ export default {
                     description: 'to encode or decode',
                     displayDescription: 'to encode or decode',
                     required: true,
-                    // @ts-ignore
                     type: 3,
                     choices: [{
                         name: 'encode',
@@ -40,7 +38,6 @@ export default {
                     }]
                 }]
             }],
-            // @ts-ignore
             applicationId: -1,
             inputType: 1,
             type: 1,
@@ -56,7 +53,8 @@ export default {
     },
     onUnload: () => {
         for (const unpatch of patches) unpatch()
-    }
+    },
+    settings: Settings,
 }
 
 /*export default {
