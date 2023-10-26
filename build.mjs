@@ -82,7 +82,7 @@ for (let plug of await readdir("./plugins")) {
 
         // Idk i was bored
         if(manifest.extra.README){
-            let readme = await readFile(`./dist/${plug}/README.md`);
+            let readme = await readFile(`./${plug}/README.md`);
             await writeFile(`./dist/${plug}/README.md`, JSON.stringify(readme));
         }
     
