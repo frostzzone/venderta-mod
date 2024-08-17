@@ -18,5 +18,8 @@
     "main": "src/index.tsx",
     "vendetta": {
             "icon": "ic_profile_24px"
+    },
+    "extra": {
+        "README": true
     }
 }
